@@ -6,7 +6,7 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESKeySpec;
 import java.security.spec.KeySpec;
 
-public class DESTestDecrypt {
+public class DESDecrypt {
     public static void main(String[] args) {
         String test = "1";
         try {

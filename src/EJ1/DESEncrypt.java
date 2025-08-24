@@ -5,7 +5,7 @@ import javax.crypto.*;
 import javax.crypto.spec.*;
 
 
-public class DESTest {
+public class DESEncrypt {
     public static void main(String[] args) {
         String test = "1";
         try {
