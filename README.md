@@ -1,6 +1,6 @@
 Johan Daniel Aguirre Arias - A00395554
 
-Alejandro Amu Garcia - A0039
+Alejandro Amu Garcia - A00395686
 
 Gerson de Jesus Hurtado Borja - A0039
 
