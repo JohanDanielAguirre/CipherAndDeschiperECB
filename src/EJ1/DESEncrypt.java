@@ -12,19 +12,7 @@ public class DESEncrypt {
             byte[] theKey = null;
             byte[] theMsg = null;
             byte[] theExp = null;
-            if (test.equals("1")) {
-                theKey = hexToBytes("0101010101010101 ");
-                theMsg = hexToBytes("4000000000000000");
-                theExp = hexToBytes("DD7F121CA5015619 ");
-            } else if (test.equals("2")) {
-                theKey = hexToBytes("38627974656B6579"); // "8bytekey"
-                theMsg = hexToBytes("6D6573736167652E"); // "message."
-                theExp = hexToBytes("7CF45E129445D451");
-            } else {
-                System.out.println("Usage:");
-                System.out.println("java JceSunDesTest 1/2");
-                return;
-            }
+
             KeySpec ks = new DESKeySpec(theKey);
             SecretKeyFactory kf
                     = SecretKeyFactory.getInstance("DES");
